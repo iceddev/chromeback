@@ -1,0 +1,29 @@
+{
+  "name": "chromeback",
+  "version": "0.0.0",
+  "description": "Mapping of Chrome APIs to node-style callbacks",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/chromeback",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "api",
+    "callback",
+    "chrome",
+    "node callback",
+    "nodeback"
+  ]
+}
