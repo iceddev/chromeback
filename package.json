@@ -2,7 +2,7 @@
   "name": "chromeback",
   "version": "0.0.0",
   "description": "Mapping of Chrome APIs to node-style callbacks",
-  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "author": "Brett Warner <brett@iceddev.com> (http://iceddev.com)",
   "contributors": [],
   "repository": "iceddev/chromeback",
   "license": "MIT",
@@ -17,7 +17,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^3.9.1"
+  },
   "devDependencies": {},
   "keywords": [
     "api",
