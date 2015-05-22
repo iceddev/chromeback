@@ -1,6 +1,6 @@
 {
   "name": "chromeback",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Mapping of Chrome APIs to node-style callbacks",
   "author": "Brett Warner <brett@iceddev.com> (http://iceddev.com)",
   "contributors": [],

@@ -49,6 +49,8 @@ function buildApi(newApi, chromeApi){
   return newApi;
 }
 
-var createdApi = buildApi({}, chrome);
+function createApi(chromeApi){
+  return buildApi({}, chromeApi);
+}
 
-module.exports = createdApi;
+module.exports = createApi;
