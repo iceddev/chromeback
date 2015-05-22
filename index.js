@@ -36,10 +36,8 @@ function buildApi(newApi, chromeApi){
               return callback.apply(null, [null].concat(res));
             }
           });
-          // Add our new function to the end of the arguments we're going to call the api with.
-          args.push(replacementCallback);
-          // Then call it with all of the original arguments plus our new callback(Which eventually calls the old callback)
-          chromeApi[key].apply(chromeApi, args);
+          // Then call the Chrome api with all of the original arguments plus our new callback(Which eventually calls the old callback)
+          return chromeApi[key].apply(chromeApi, args.concat(replacementCallback));
         } else {
           // Callbacks are optional in a lot of cases. If we weren't given one we just call the api normally.
           return chromeApi[key].apply(chromeApi, args);
