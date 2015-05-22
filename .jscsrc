@@ -1,6 +1,5 @@
 {
     "preset": "node-style-guide",
-    "esnext": true,
     "disallowSpaceAfterKeywords": [
       "if",
       "for",
