@@ -12,5 +12,5 @@ chromeApi.storage.sync.get('myItem', function(err, res){
     console.log('You would have had to check chrome.runtime.lastError to see this before!');
   }
   return res;
-}
+});
 ```
